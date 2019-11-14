@@ -12,17 +12,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".MainActivity"
+        <activity android:name=".Activity.MainActivity"
 
             android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
-        <activity android:name=".VisualizarActivity"
+        <activity android:name=".Activity.VisualizarActivity"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".GenerarActivity" />
-        <activity android:name=".Ultimos4"
+        <activity android:name=".Activity.GenerarActivity" />
+        <activity android:name=".Activity.Ultimos4"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".Ultimos"
+        <activity android:name=".Activity.Ultimos"
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-        <activity android:name=".SplashActivity"
+        <activity android:name=".Activity.SplashActivity"
 
             android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
             <intent-filter>
